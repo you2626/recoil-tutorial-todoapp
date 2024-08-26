@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./AddTask.css";
 
 const AddTask = () => {
   return (
-    <div>AddTask</div>
-  )
-}
+    <div className="taskFIeld">
+      <div>5個のタスクがあります</div>
+      <ul>
+        <li>はじめてのタスク</li>
+      </ul>
+    </div>
+  );
+};
 
-export default AddTask
+export default AddTask;
